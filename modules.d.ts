@@ -36,11 +36,6 @@ declare module 'mobx' {
 	export const extras: any;
 }
 
-declare module 'invariant' {
-	function invariant(condition: any, message: string): void;
-	export = invariant;
-}
-
 declare module 'hoist-non-react-statics' {
 	function hoistStatics(connectClass: any, wrappedComponent: any): { [index: string]: any };
 	export = hoistStatics;
